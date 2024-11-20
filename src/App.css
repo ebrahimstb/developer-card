@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,131 @@
   to {
     transform: rotate(360deg);
   }
+} */
+*{
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  align-items: center;
+ justify-content: center;
+  padding: 50px 500px;
+   background: #23252C;
+  
+}
+.app{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;align-items: center;
+  background: #1A1B21;
+  height: 100%;
+  width: 270px;
+  align-self: center;
+  border-color: 1px solid red;
+}
+.img-div{
+  height :250px;
+  width: 100%;
+  background-image: url(assets/0a4be9a6eaf565103fc6e2c325f3838a.png);
+  background-repeat: no-repeat;
+  background-size: cover; 
+  background-position: top center;
+  overflow: hidden; 
+}
+.main-div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.info-main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.info-name{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.info-name > h1{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: -10px;
+}
+.tt{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: -4px;
+  font-size: 15px;
+  color: burlywood;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.aa{
+  font-size: 8px;
+  color: white;
+}
+.info-btn{
+  display: flex;
+  justify-content: space-between ;
+  align-items: center;
+}
+.btn-1{
+   display: inline-flex;
+   align-items: center;
+  justify-content: center;
+   gap: 8px;
+   padding: 7px 17px;
+   font-size: 16px;
+   background-color: white;
+   border: none;
+   border-radius: 2px;
+   cursor: pointer;
+   margin-right: 20px;
+}
+.btn-2{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 7px 17px;
+  font-size: 16px;
+  background-color: rgb(84, 103, 212);
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+}
+.about-main{
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-self: center;
+}
+.about-1{
+  color: white;
+}
+.about-1 p{
+  font-size: 12px;
+  margin-top: -10px;
+  font-weight: normal;
+}
+.about-2{
+  color: white;
+}
+.about-2 p{
+  font-size: 12px;
+  margin-top: -10px;
+  font-weight: normal;
+}
+.main-footer{
+  display: flex;
+  justify-content: space-around;
+  background-color: #101114;;
+  padding: 15px 15px;
+  width: 100%;
 }
